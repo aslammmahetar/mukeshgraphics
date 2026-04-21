@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Mukesh Graphics</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="assets/images/logo/favicon.ico.png" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preload" as="image" href="assets/images/logo/Logo-dark.png">
+</head>
+
+<body>
+    <!-- Top Sliding Text Section -->
+    <section class="sliding-text-section">
+        <div class="slider-container">
+            <div class="swiper textSwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">Special Offer: 20% Off on All Printing Services</div>
+                    <div class="swiper-slide">New Packaging Designs Available Now</div>
+                    <div class="swiper-slide">Get Your Custom Graphics Today</div>
+                    <div class="swiper-slide">Premium Quality Materials Used</div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <button class="hamburger" id="hamburger">☰</button>
+            <div class="logo">
+                <a class="d-block position-relative fw-semibold lh-1" href="index.html">
+                    <img src="assets/images/logo/Logo-dark.png" class="logo" style="width: 130px;"
+                        alt="Mukesh Graphics">
+                </a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+                <li class="nav-item"><a href="clients.html" class="nav-link">Our Clients</a></li>
+                <li class="nav-item"><a href="about-us.html" class="nav-link">About Us</a></li>
+                <li class="nav-item"><a href="contact-us.html" class="nav-link">Contact Us</a></li>
+            </ul>
+            <div></div>
+        </div>
+    </nav>
+
+    <!-- Mobile Drawer -->
+    <div class="mobile-drawer" id="mobileDrawer">
+        <div class="drawer-header">
+            <div class="drawer-logo"><a class="d-block position-relative fw-semibold lh-1" href="index.html">
+                    <img src="assets/images/logo/Logo-dark.png" class="logo" style="width: 130px;"
+                        alt="Mukesh Graphics">
+                </a></div>
+            <button class="close-drawer" id="closeDrawer">×</button>
+        </div>
+        <ul class="drawer-menu">
+            <li class="drawer-item"><a href="index.html" class="drawer-link">Home</a></li>
+            <li class="drawer-item"><a href="portfolio.html" class="drawer-link">Portfolio</a></li>
+            <li class="drawer-item"><a href="clients.html" class="drawer-link">Our Clients</a></li>
+            <li class="drawer-item"><a href="about-us.html" class="drawer-link">About Us</a></li>
+            <li class="drawer-item"><a href="contact-us.html" class="drawer-link">Contact Us</a></li>
+        </ul>
+    </div>
+    <div class="overlay" id="overlay"></div>
+    <section class="portfolio-welcome-section">
+        <!-- Video Background -->
+        <div class="portfolio-video-background">
+            <video autoplay loop muted playsinline preload="metadata">
+                <source src="assets/videos/banner2.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <!-- Dark Overlay -->
+        <div class="portfolio-overlay"></div>
+
+        <!-- Content -->
+        <div class="portfolio-welcome-content">
+            <h1 class="portfolio-welcome-title" data-aos="fade-up">Welcome To Mukesh Graphics</h1>
+            <h2 class="portfolio-welcome-subtitle" data-aos="fade-up">Our Passion is your Impression</h2>
+
+            <!-- Features Grid -->
+            <div class="portfolio-features-grid">
+                <!-- Feature 1 -->
+                <div class="portfolio-feature-card" data-aos="flip-left">
+                    <div class="portfolio-feature-icon">🖨️</div>
+                    <h3 class="portfolio-feature-title">High-Quality Printing</h3>
+                    <p class="portfolio-feature-description">Sharp, vibrant, and flawless printing quality that makes
+                        your brand
+                        stand
+                        out!</p>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="portfolio-feature-card" data-aos="flip-left">
+                    <div class="portfolio-feature-icon">⚙️</div>
+                    <h3 class="portfolio-feature-title">In-House Tech & Machinery</h3>
+                    <p class="portfolio-feature-description">Equipped with advanced in-house technology. Delivering
+                        precision and
+                        consistency every time.</p>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="portfolio-feature-card" data-aos="flip-left">
+                    <div class="portfolio-feature-icon">✅</div>
+                    <h3 class="portfolio-feature-title">100% Satisfaction Assured</h3>
+                    <p class="portfolio-feature-description">We stand by our quality and service. Your complete
+                        satisfaction is
+                        our
+                        promise.</p>
+                </div>
+
+                <!-- Feature 4 -->
+                <div class="portfolio-feature-card" data-aos="flip-left">
+                    <div class="portfolio-feature-icon">🔄</div>
+                    <h3 class="portfolio-feature-title">End To End Support</h3>
+                    <p class="portfolio-feature-description">Outstanding Premium Support for all your needs from start
+                        to finish.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="product-section">
+        <div class="customer-header">
+            <h1 style="color: black;margin-bottom: 10px;">Our capabilities</h1>
+            <hr class="customer-divider">
+        </div>
+        <div class="product-container">
+            <div class="product-image" data-aos="fade-up">
+                <img src="assets/images/products/product1.jpg" alt="High Quality Printing Banner">
+            </div>
+            <div class="product-image" data-aos="fade-up">
+                <img src="assets/images/products/product2.jpg" alt="High Quality Printing Banner">
+            </div>
+            <div class="product-image" data-aos="fade-up">
+                <img src="assets/images/products/product3.jpg" alt="High Quality Printing Banner">
+            </div>
+            <div class="product-image" data-aos="fade-up">
+                <img src="assets/images/products/product4.jpg" alt="High Quality Printing Banner">
+            </div>
+            <div class="product-image" data-aos="fade-up">
+                <img src="assets/images/products/product5.jpg" alt="High Quality Printing Banner">
+            </div>
+            <div class="product-image" data-aos="fade-up">
+                <img src="assets/images/products/product6.jpg" alt="High Quality Printing Banner">
+            </div>
+            <div class="product-image" data-aos="fade-up">
+                <img src="assets/images/products/product7.jpg" alt="High Quality Printing Banner">
+            </div>
+            <div class="product-image" data-aos="fade-up">
+                <img src="assets/images/products/product8.jpg" alt="High Quality Printing Banner">
+            </div>
+            <div class="product-image" data-aos="fade-up">
+                <img src="assets/images/products/product9.jpg" alt="High Quality Printing Banner">
+            </div>
+            <div class="product-image" data-aos="fade-up">
+                <img src="assets/images/products/product10.jpg" alt="High Quality Printing Banner">
+            </div>
+            <div class="product-image" data-aos="fade-up">
+                <img src="assets/images/products/product11.jpg" alt="High Quality Printing Banner">
+            </div>
+            <div class="product-image" data-aos="fade-up">
+                <img src="assets/images/products/product12.jpg" alt="High Quality Printing Banner">
+            </div>
+            <div class="product-image" data-aos="fade-up">
+                <img src="assets/images/products/product13.jpg" alt="High Quality Printing Banner">
+            </div>
+        </div>
+    </section>
+    <!-- Scroll to Top Button -->
+    <button class="scroll-to-top" id="scrollToTop" aria-label="Scroll to top">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 4L12.01 20M12 4L4 12M12 4L20 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+        </svg>
+    </button>
+    <footer class="footer-section">
+        <div class="footer-container">
+            <!-- Brand Column -->
+            <div class="footer-brand">
+                <div class="footer-logo">
+                    <a class="d-block position-relative fw-semibold lh-1" href="index.html" style="text-align: center">
+                        <img src="assets/images/logo/Logo-light.png" alt="Mukesh Graphics" style="width: 120px;"
+                            data-aos="flip-left">
+                    </a>
+                </div>
+                <p class="footer-tagline">
+                    With 18+ years of proven expertise, we specialize in delivering innovative and premium solutions.
+                </p>
+                <div class="footer-contact">
+                    <div class="contact-item">+919426272081</div>
+                    <div class="contact-item">info@mukeshgraphics.com</div>
+                </div>
+            </div>
+
+            <!-- Our Company Links -->
+            <div class="footer-links-column">
+                <h3 class="footer-heading">Our Company</h3>
+                <ul class="footer-links">
+                    <li class="footer-link-item"><a href="index.html" class="footer-link">Home</a></li>
+                    <li class="footer-link-item"><a href="about-us.html" class="footer-link">About Us</a></li>
+                    <li class="footer-link-item"><a href="clients.html" class="footer-link">Our Clients</a></li>
+                    <li class="footer-link-item"><a href="portfolio.html" class="footer-link">Portfolio</a></li>
+                    <li class="footer-link-item"><a href="contact-us.html" class="footer-link">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <!-- Newsletter Column -->
+            <div class="footer-newsletter">
+                <h3 class="footer-heading">Sign Up to Newsletter</h3>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email..." class="newsletter-input" required>
+                    <button type="submit" class="newsletter-button">Subscribe</button>
+                </form>
+                <p class="newsletter-note">
+                    **By entering the e-mail you accept the terms and conditions and the privacy policy.
+                </p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 MUKESH GRAPHICS. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="script.js"></script>
+<script>
+    AOS.init();
+</script>
+
+</html>
